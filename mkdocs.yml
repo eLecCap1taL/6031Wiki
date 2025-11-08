@@ -1,0 +1,5 @@
+site_name: 6031 百科
+nav:
+  - Home: index.md
+  - About: about.md
+theme: material
