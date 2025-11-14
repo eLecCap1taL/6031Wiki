@@ -1,11 +1,53 @@
-site_name: 6031 百科
+site_name: 6031 Wiki
 docs_dir: src
 site_dir: docs
+
+# Repository
+repo_name: 'eLecCap1taL/6031Wiki'
+repo_url: 'https://github.com/eLecCap1taL/6031Wiki'
+
+# Copyright
+copyright: 'Copyright &copy; 2025 - 2025 eLecCap1taL'
+
 nav:
-  - Home: index.md
-  - About: about.md
+  - 简介:
+    - 主页: index.md
+  - 世家:
+    - 主页: shijia/index.md
+    - Doorman 世家: shijia/doorman.md
+
+
 theme:
   name: material
-  custom_dir: src/overrides
-  logo: assets/images/favicon.png
-  favicon: assets/images/favicon.png
+  custom_dir: overrides/
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+        
+  language: zh
+
+  logo: assets/images/xwd-256.png
+  
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
