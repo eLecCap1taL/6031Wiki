@@ -14,12 +14,22 @@ nav:
     - 主页: index.md
   - 世家:
     - 主页: shijia/index.md
+    - 肖卫 世家:
+      - 概述: shijia/xwd/index.md
+      - 清北要过半 C9要全面: shijia/xwd/THUHALF-PKU-ALL.md
+      - 试卷如矢: shijia/xwd/paper-like-shit.md
     - Doorman 世家: 
       - 概述: shijia/doorman/index.md
+      - 非常烂糊: shijia/doorman/lanhu.md
+      - 回收: shijia/doorman/recycle.md
       - 孝子食饼: shijia/doorman/story-1.md
       - 食兔疑肉: shijia/doorman/story-2.md
     - 蚂蚁 世家:
       - 概述: shijia/ant/index.md
+    - 佐传 世家:
+      - 概述: shijia/zuozhuan/index.md
+    - 严神 世家:
+      - 概述: shijia/yanshen/index.md
 
 
 theme:
